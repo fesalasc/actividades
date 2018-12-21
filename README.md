@@ -33,7 +33,7 @@ Se deberán de llevar a cabo las siguientes actividades:
   (exploits) para vulnerar los activos de los otros equipos.
 
   Para esta actividad habrá que crear una cuenta en la URL
-  [picocotf.com](https://picocotf.com), tendrás que intentar
+  [picococtf.com](https://picoctf.com), tendrás que intentar
   resolver **tantos** ejercicios como te sean posibles, si logras resolver
   **todo** el CTF será mejor.
 
@@ -55,7 +55,8 @@ almacenarlo en algún servicio nube como:
 - [Bitbucket](http://bitbucket.com)
 
 > En caso de no completarlo se entenderá que __no__ deseas involucrarte
-  en el laboratorio, dejándote fuera como aspirante o miembro activo de tal.
+  en el laboratorio, dejándote fuera como aspirante o miembro
+  _activo_ de tal.
 
 Suerte. (;
 
@@ -152,8 +153,8 @@ en algún servicio como [Github](http://github.com), puedes encontrar un montón
 de tutoriales acerca de cómo usar `git` en Youtube o buscando documentación
 en la [página web de Git](http://git-scm.com)
 
-Acá dejo la captura de pantalla del scoreboard, algunos de los writeups están
-alojados en el repositorio de la FES, si tienes cuenta en éste puedes leerlos
-el el repositorio correspondiente.
+Acá dejo la captura de pantalla del scoreboard, algunos de los _write-ups_
+están alojados en el repositorio de la FES, si tienes cuenta en éste puedes
+leerlos el el repositorio correspondiente.
 
 ![Scoreboard](./scoreboard.png)
