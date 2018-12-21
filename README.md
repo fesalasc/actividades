@@ -6,36 +6,42 @@ Fecha de entrega máxima: 28 Enero
 
 Se deberán de llevar a cabo las siguientes actividades:
 
-- __Mapeo__ de red. Es un escaneo de la red de tu hogar, o alguna red
-  pública (asegúrate de no infringir reglas o políticas de la red, esto puede
-  traer en algunos casos, consecuencias legales).
+- __Mapeo__ de red. Es un escaneo de la red de tu hogar,  __no__ de alguna red
+  pública (muchas redes abiertas tienen reglas o políticas, esto puede
+  traer en algunos casos consecuencias legales), habrá que entrgar el `.nmap`
+  o el archivo generado por el escaner que utilices.
 
 - Análisis de tráfico. Es una exploración de los paquetes enviados/recibidos
   por los distintos equipos a los que se comunica determinado equipo mientras
-  se está conectado a una red mediante protocolos de ésta.
+  se está conectado a una red, todo esto mediante protocolos determinados. El
+  archivo a entregar será el `.pcap` obtenido.
 
 - Capture The Flag. Es un evento relacionado principalmente a temas de 
   __Hacking__, Seguridad de la Información y Ciencias de la Computación,
   existen dos modalidades:
+
   - **Jeopardy**, es un tipo de CTF donde se presentan varios retos, cada uno
   tiene un valor (puntaje), una vez resuelto el reto se entrega al equipo una
-  __badera__ (flag), la cual se intercambia por puntos, el equipo que logre
+  _bandera_ (flag), la cual se intercambia por puntos, el equipo que logre
   resolver más retos (i.e. conseguir más puntos) será el ganador, usualmente se
   da un límite de tiempo. Las flags suelen ser cadenas de texto con un formato
   específico, por ejemplo: FLAG{c4d3na_4l34t0r1a}
+
   - **Ataque-Defensa**, otro tipo de CTF, aquí el objetivo es atacar y defender
-  el activo dentro de una red, usualmente este activo tiene vulnerabilidades,
+  el activo dentro de una red, usualmente este tiene vulnerabilidades,
   las cuales deben de ser mitigadas y al mismo tiempo generar __ataques__
   (exploits) para vulnerar los activos de los otros equipos.
+
   Para esta actividad habrá que crear una cuenta en la URL
   [picocotf.com](https://picocotf.com), tendrás que intentar
-  resolver **tantos** ejercicios como te sean posibles (del evento 2018).
+  resolver **tantos** ejercicios como te sean posibles, si logras resolver
+  **todo** el CTF será mejor.
 
 Para cada actividad es necesario guardar la evidencia de que fueron llevadas
 a cabo, por ejemplo, tomar capturas de pantalla legibles del procedimiento o
 realizar un screencast de la actividad, así como guardar la salida de las
 actividades en archivos de texto. En el caso del CTF, será útil generar un
-archivo donde se guarden una pequeña explicación de cómo se resolvio el reto X,
+archivo donde se guarde una pequeña explicación de cómo se resolvio el reto X,
 de igual forma habrá que guardar la flag obtenida en ese archivo y por último,
 tomar una captura de pantalla al tablero de puntos (scoreboard) de ser posible.
 
@@ -48,7 +54,7 @@ almacenarlo en algún servicio nube como:
 
 - [Bitbucket](http://bitbucket.com)
 
-> En caso de no completarlo se dará por entendido que no deseas involucrarte
+> En caso de no completarlo se entenderá que __no__ deseas involucrarte
   en el laboratorio, dejándote fuera como aspirante o miembro activo de tal.
 
 Suerte. (;
@@ -62,9 +68,9 @@ Suerte. (;
 Se recomienda realizar esta actividad desde un SO GNU/Linux con la herramienta
 `nmap`, como se especificó anteriormente se pueden tomar capturas de pantalla
 al realizar ésta actividad, o en dado caso realizar un screencast de la
-actividad (asegúrate que no sea muy largo e video), algo importante es guardar
+actividad (asegúrate que no sea muy largo el video), algo importante es guardar
 la salida del comando en un archivo de texto, consulta el manual de `nmap` para
-saber cómo hacer ésto.
+saber cómo hacer ésto, o en su defecto, tutoriales en internet.
 
 Es importante que se muestren los servicios abiertos, cerrados y no filtrados
 de los dispositivos conectados a la red.
@@ -100,7 +106,7 @@ entrega, así como guardar tu progreso en un archivo de texto (¡No MS Word!), e
 decir escribir una pequeña descripción de cómo resolviste el reto e incluir la
 flag que se te devolvió al completarlo.
 
-Por ejemplo, este es un __write up__ de un participante del año pasado:
+Por ejemplo, este es un __write up__ de un participante del CTF del año pasado:
 
 ---
 
